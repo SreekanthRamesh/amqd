@@ -18,7 +18,6 @@ public class TopicConsumer implements Runnable {
 		this.connectionFactory = connectionFactory;
 	}
 
-	@Override
 	public void run() {
 		try {
 			// First create a connection
